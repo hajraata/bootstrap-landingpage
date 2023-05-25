@@ -1,0 +1,29 @@
+{
+  "navbarLinks": [
+    { "id": "1", "value": "Home" },
+    { "id": "2", "value": "About" },
+    { "id": "3", "value": "Contact" },
+    { "id": "4", "value": "Services" }
+  ],
+
+  "cardsList": [
+    {
+      "id": "1",
+      "src": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=811&q=80",
+      "heading": "Card One",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolore."
+    },
+    {
+      "id": "2",
+      "src": "https://images.unsplash.com/photo-1511489731872-324afc650052?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
+      "heading": "Card Two",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolore."
+    },
+    {
+      "id": "3",
+      "src": "https://images.unsplash.com/photo-1617803672592-177dbdb3abfa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      "heading": "Card Three",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolore."
+    }
+  ]
+}

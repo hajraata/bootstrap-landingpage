@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Cards from "./components/Cards";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Container from "react-bootstrap/Container";
+import WebNav from "./components/Nav";
+import Tagline from "./components/Tagline";
+
+import data from "../src/data/data.json";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container fluid className="p-0" style={{ overflow: "hidden" }}>
+      <WebNav items={data.navbarLinks} />
+      <Header />
+      <Tagline
+        text={
+          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi excepturi!"
+        }
+      />
+      <Cards items={data.cardsList} />
+      <Footer text={"Copyright © 2023"} />
+    </Container>
   );
 }
 
